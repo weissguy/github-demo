@@ -1,12 +1,17 @@
 # github-demo
 Demo project to practice essential Git skills.
 
-***0. What Even is a Repository?***
+**0. Let's Get Git Basics**
+- *Git* - A version control system, used for collaborative software development.
+- Git lets us view a project's progress over time.
+- Because Git stores history, we can revert to older versions of the project.
+
+**1. What Even is a Repository?**
 - *Repository* - A location to store all the code for one project.
 - For FRC, we make a new repo for every individual robot.
 - This repo's name is descriptive and simple (as it should be) -- "github-demo"
 
-***1. Your First Commit***
+**2. Your First Commit**
 - *Commit* - An uploaded set of changes to a project, which is permanently stored in Git.
 - Commits only store changes since the last commit, NOT entire file contents.
 
@@ -17,7 +22,7 @@ Demo project to practice essential Git skills.
   - Stage changes to the file
   - Commit (with a helpful, detailed message :)
   
-***2. Branching Off***
+**3. Branching Off**
 - *Branch* - A separate area of the repository, which stores commits separate from the main branch.
 - Branches are useful for developing and testing individual features, subsystems, etc.
   - Rule of thumb is to keep the main branch 100% functional--no new features
@@ -28,7 +33,7 @@ Demo project to practice essential Git skills.
   - Stage changes to the file
   - Commit to the "test" branch
   
- ***3. Merging Back***
+ **4. Merging Back**
  - Once a branch is fully operational, we can merge it back with the main branch
  - Must issue a pull request when working on a group repository
   - B/c oftentimes conflicts must be resolved
