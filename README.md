@@ -12,9 +12,16 @@ Demo project to practice essential Git skills.
 - *Repository* - A location to store all the code for one project.
   - For FRC, we make a new repo for every individual robot.
   - This repo's name is descriptive and simple (as it should be) -- "github-demo"
+  
+  
+**2. Let's Make Some Clones**
+- To clone a repository is to "copy and paste" it locally (on your device)
+- Steps:
+  - Open the "github-demo" repository in GitHub/GitKraken
+  - Clone it, following the prompts, and choosing a good workspace folder
 
 
-**2. Your First Commit**
+**3. Your First Commit**
 - *Commit* - An uploaded set of changes to a project, which is permanently stored in Git.
   - Commits only store changes since the last commit, NOT entire file contents.
 - Steps:
@@ -25,7 +32,7 @@ Demo project to practice essential Git skills.
   - Commit (with a helpful, detailed message :)
   
   
-**3. Branching Off**
+**4. Branching Off**
 - *Branch* - A separate area of the repository, which stores commits separate from the main branch.
   - Branches are useful for developing and testing individual features, subsystems, etc.
   - Rule of thumb is to keep the main branch 100% functional--no new features
@@ -36,7 +43,7 @@ Demo project to practice essential Git skills.
   - Commit to the "test" branch
   
   
- **4. Merging Back**
+ **5. Merging Back**
 - Once a branch is fully operational, we can merge it back with the main branch
 - Must issue a pull request when working on a group repository
   - B/c oftentimes conflicts must be resolved
