@@ -24,12 +24,14 @@ Demo project to practice essential Git skills.
 **3. Your First Commit**
 - *Commit* - An uploaded set of changes to a project, which is permanently stored in Git.
   - Commits only store changes since the last commit, NOT entire file contents.
+  - Commits are stored LOCALLY; must push to store GLOBALLY
 - Steps:
   - Create a new file named "file.txt"
   - Write a few lines of text into the file
   - Save the file
   - Stage changes to the file
   - Commit (with a helpful, detailed message :)
+  - Push commit
   
   
 **4. Branching Off**
